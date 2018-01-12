@@ -10,22 +10,23 @@ import edu.wpi.first.wpilibj.IterativeRobot;
 //import com.kauailabs.navx.frc.AHRS;
 
 //import edu.wpi.cscore.UsbCamera;
-import edu.wpi.first.wpilibj.AnalogInput;
-import edu.wpi.first.wpilibj.CameraServer;
-import edu.wpi.first.wpilibj.DigitalInput;
-import edu.wpi.first.wpilibj.Encoder;
+//import edu.wpi.first.wpilibj.AnalogInput;
+//import edu.wpi.first.wpilibj.CameraServer;
+//import edu.wpi.first.wpilibj.DigitalInput;
+//import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.Relay;
-//import edu.wpi.first.wpilibj.RobotDrive;//
+//import edu.wpi.first.wpilibj.Relay;
+//import edu.wpi.first.wpilibj.RobotDrive;
 import edu.wpi.first.wpilibj.SPI;
 import edu.wpi.first.wpilibj.Talon;
 //import edu.wpi.first.wpilibj.TalonSRX;
-import edu.wpi.first.wpilibj.Timer;
-import edu.wpi.first.wpilibj.Victor;
-import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import edu.wpi.first.wpilibj.vision.VisionThread;
+//import edu.wpi.first.wpilibj.Timer;
+//import edu.wpi.first.wpilibj.Victor;
+//import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
+//import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+//import edu.wpi.first.wpilibj.vision.VisionThread;
+
 //                                          2018 Bot Code
 /**
  *
@@ -46,11 +47,11 @@ public class Robot extends IterativeRobot {
 	
 	
     public void robotInit() {
-    	Talon A = new Talon(0);
-    	Talon B = new Talon(1);
-    	Talon C = new Talon(2);
-    	Talon D = new Talon(3);
-    	Joystick xBox = new Joystick(0);
+    	A = new Talon(0);
+    	B = new Talon(1);
+    	C = new Talon(2);
+    	D = new Talon(3);
+    	xBox = new Joystick(0);
     }
     
     /**
